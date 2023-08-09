@@ -1,7 +1,7 @@
 channels:
-- defaults
 - pytorch
 - nvidia
+- defaults
 dependencies:
 - python=3.11
 - numpy=1.25.2
@@ -11,4 +11,3 @@ dependencies:
 - torchaudio=2.0.2
 - pytorch-cuda=11.7
 - ipykernel=6.25.0
-
