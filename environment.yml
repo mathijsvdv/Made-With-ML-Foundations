@@ -7,6 +7,8 @@ dependencies:
 - numpy=1.25.2
 - pandas=1.5.3
 - matplotlib=3.7.1
+- scikit-learn=1.2.2
+- scikit-learn-intelex=20230426.111612
 - pytorch=2.0.1
 - torchvision=0.15.2
 - torchaudio=2.0.2
