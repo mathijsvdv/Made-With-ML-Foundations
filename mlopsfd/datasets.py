@@ -70,7 +70,7 @@ def generate_spirals(
         rng = np.random.default_rng(SEED)
 
     if distribution is None:
-        distribution = Normal(0.0, 1.0)
+        distribution = Normal(0.0, 0.2)
 
     xys = [spiral.get_x_y(angle) for spiral in spirals]
     eps = distribution.generate(rng, size=(len(spirals), 2, len(angle)))
